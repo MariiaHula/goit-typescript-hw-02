@@ -1,11 +1,26 @@
 {
-  "name": "typescript-homework-module-2",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
+  "description": "- npm install -g typescript - tsc --init - tsc - tsc -w",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariiaHula/goit-typescript-hw-01.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\"",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.1.5"
+  "bugs": {
+    "url": "https://github.com/MariiaHula/goit-typescript-hw-01/issues"
+  },
+  "homepage": "https://github.com/MariiaHula/goit-typescript-hw-01#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
   }
 }
