@@ -5,7 +5,7 @@
 interface IBook {
  title: string,
 }
-class Component <T extends IBook>{
+class Component <T>{
   constructor (public props:T) {
 
   }
